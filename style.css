@@ -28,18 +28,14 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 10px 10px;
+  gap: 5px 5px;
 }
 
 .list__item {
-  
- 
   padding: 15px;
-  
   color: #001d29;
   font-weight: 500;
   font-size: 18px;
-  box-shadow: 0 4px 6px -1px #001d2910, 0 2px 4px -2px #001d2910;
   position: relative;
   will-change: transform;
 }
@@ -48,7 +44,6 @@ img {
   border-radius: 8px;
   padding: 5px;
   max-width: 200px;
- 
 }
 
 .charatag {
@@ -70,6 +65,3 @@ img {
   cursor: grabbing;
 }
 
-.list__item.is-draggable {
-  z-index: 10;
-}
