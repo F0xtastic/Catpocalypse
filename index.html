@@ -156,19 +156,25 @@
     </div>
 
   </div>
-
-  <!--DEVANG-->
+<!--Devang-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
-    
-    <img src="images/Devang.png">
-    
+
+    <!--SLIDESHOW-->
+ <div class="w3-content w3-display-container">
+  <img class="mySlides7" src="images/Devang.png" >
+  <img class="mySlides7" src="images/Devangclothed.png" >
+</div>
+    <!--SLIDESHOW END-->
+
     <div class="charatag js-drag-handle ">
          <a href="https://disasterghaster.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
       Skara Devang <br>
       6'10" <br>
     </div>
-
-  </div>
+  <button class="w3-display-left" onclick="plusDivs(-1, 6)">&#10094;</button>
+  <button class="w3-display-right" onclick="plusDivs(1, 6)">&#10095;</button>
+    </div>
+ 
   <!--DUNCAN-->
   <div class="drag-handle js-drag-handle list__item is-idle js-item">
     
@@ -241,6 +247,26 @@
     </div>
 
   </div>
+
+  <!--Willow-->
+  <div class="drag-handle js-drag-handle list__item is-idle js-item">
+
+    <!--SLIDESHOW-->
+ <div class="w3-content w3-display-container">
+  <img class="mySlides8" src="images/Willow.png" >
+<!--  <img class="mySlides8" src="images/Willowclothed.png" > -->
+</div>
+    <!--SLIDESHOW END-->
+
+    <div class="charatag js-drag-handle ">
+         <a href="https://kingdomofbellows.tumblr.com/"><img class="tumblrico" src="images/tumblr.svg" width="30px"></a>
+      Willow <br>
+      5' <br>
+    </div>
+  <button class="w3-display-left" onclick="plusDivs(-1, 7)">&#10094;</button>
+  <button class="w3-display-right" onclick="plusDivs(1, 7)">&#10095;</button>
+    </div>
+
   
 </div>
     <script src="drag.js"></script> 
@@ -248,14 +274,16 @@
 
 
 <script>
-var slideIndex = [1,1,1,1,1,1];
-var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+var slideIndex = [1,1,1,1,1,1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8"]
 showDivs(1, 0);
 showDivs(1, 1);
 showDivs(1, 2);
 showDivs(1, 3);
 showDivs(1, 4);
 showDivs(1, 5);
+showDivs(1, 6);
+showDivs(1, 7);
 function plusDivs(n, no) {
   showDivs(slideIndex[no] += n, no);
 }
