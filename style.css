@@ -8,7 +8,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background: #262027;
+  background: linear-gradient(0deg,rgb(72, 77, 122) 0%,  rgb(226, 237, 243) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,8 +33,8 @@ body {
 }
 
 .list__item {
-  padding: 15px;
-  color: #001d29;
+  padding: 5px;
+  color: #ffffff;
   font-weight: 500;
   font-size: 18px;
   position: relative;
@@ -49,8 +49,9 @@ img {
 
 .charatag {
   padding: 10px 20px;
-  background: rgb(146, 146, 146);
-  border-radius: 5px;
+  background: rgb(50, 41, 73);
+  border-radius: 10px;
+
 }
 
 .tumblrico {
