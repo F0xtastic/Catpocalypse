@@ -92,7 +92,7 @@ function setItemsGap() {
   const item1Rect = item1.getBoundingClientRect()
   const item2Rect = item2.getBoundingClientRect()
 
-  itemsGap = Math.abs(item1Rect.bottom - item2Rect.top)
+  itemsGap = Math.abs(item1Rect.right - item2Rect.left)
 }
 
 function disablePageScroll() {
