@@ -103,7 +103,7 @@ const characters = [
   {
     name: "Rook",
     height: "6'4\"",
-    images: ["Rook.png", "RookHuman.png"],
+    images: ["Rook.png", "RookClothed.png", "RookHuman.png"],
     link: "https://averyrook.tumblr.com/"
   },
   {
