@@ -45,22 +45,61 @@ img {
   border-radius: 8px;
   padding: 5px;
   max-height: 75vh;
-}
-
-.charatag {
-  padding: 10px 20px;
-  background: rgb(50, 41, 73);
-  border-radius: 10px;
-
+  pointer-events: none;
 }
 
 .tumblrico {
 float: right;
 }
 
-.list__item.is-idle .drag-handle {
+.js-drag-handle {
   cursor: grab;
 }
+
+.link {
+  float: right;
+  margin-top: -50px;
+}
+
+.slidebutton {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.slidebutton1 {
+  border-radius: 10px 0px 0px 0px;
+}
+
+.slidebutton2 {
+  border-radius: 0px 10px 0px 0px;
+}
+
+.description-container {
+  margin-top: -55px;
+  background: rgb(50, 41, 73);
+  border-radius: 10px;
+}
+
+.charatag {
+  pointer-events: none;
+  min-width: 200px;
+}
+
+.label {
+  padding: 10px 20px;
+}
+
+button {
+  cursor: pointer;
+  max-width: 50%;
+  min-width: 30px;
+  background-color: rgba(255, 151, 0, 0.51);
+  border-radius: 10px;
+  border-color: rgba(255, 151, 0, 0.51);
+  
+}
+
 
 .list__item.is-idle {
   transition: 0.25s ease transform;
