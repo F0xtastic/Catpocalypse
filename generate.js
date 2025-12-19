@@ -95,6 +95,12 @@ const characters = [
     link: "https://actualtirefire.tumblr.com/"
   },
   {
+    name: "Viktor Dresden",
+    height: "6'4\"",
+    images: ["Viktor.png", "ViktorClothed.png"],
+    link: "https://geistersoldat.tumblr.com/"
+  },
+  {
     name: "Rene",
     height: "5'8\"",
     images: ["René.png", "RenéClothed.png"],
