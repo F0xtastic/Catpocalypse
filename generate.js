@@ -121,7 +121,7 @@ const characters = [
   {
     name: "Doc Worth",
     height: "6'5\"",
-    images: ["WorthClothed.png"],
+    images: ["Worth.png", "WorthClothed.png"],
     link: "https://sodoffyabuggers.tumblr.com/"
   },
 ];
