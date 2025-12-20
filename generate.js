@@ -17,34 +17,6 @@ const characters = [
  
   },
   {
-    name: "Liv Wren",
-    height: "6'2\"",
-    images: ["Liv.png", "LivClothed.png", "LivClothed1.png"],
-    link: "https://sweetandsoursaws.tumblr.com/",
- 
-  },
-  {
-    name: "Duck Wren",
-    height: "",
-    images: ["Duck.png", "DuckClothed.png", "DuckCat.png", "DuckHuman.png"],
-    link: "https://sweetandsoursaws.tumblr.com/",
-
-  },
-  {
-    name: "Raven&nbsp;Wren",
-    images: ["Raven.png", "RavenEyes.png","RavenClothed.png", "RavenCat.png", "RavenHuman.png"],
-    height: "4'0\"",
-    link: "https://sweetandsoursaws.tumblr.com/",
-
-  },
-  {
-    name: "Goose Wren",
-    height: "",
-    images: ["Goose.png", "GooseClothed.png", "GooseCat.png", "GooseHuman.png"],
-    link: "https://sweetandsoursaws.tumblr.com/",
-
-  },
-  {
     name: "Charlie Walker",
     height: "5'5\"",
     images: ["Charlie.png", "CharlieClothed.png"],
@@ -131,6 +103,36 @@ const characters = [
     link: "https://sodoffyabuggers.tumblr.com/"
   },
 ];
+/*
+  {
+    name: "Liv Wren",
+    height: "6'2\"",
+    images: ["Liv.png", "LivClothed.png", "LivClothed1.png"],
+    link: "https://sweetandsoursaws.tumblr.com/",
+ 
+  },
+  {
+    name: "Duck Wren",
+    height: "",
+    images: ["Duck.png", "DuckClothed.png", "DuckCat.png", "DuckHuman.png"],
+    link: "https://sweetandsoursaws.tumblr.com/",
+
+  },
+  {
+    name: "Raven&nbsp;Wren",
+    images: ["Raven.png", "RavenEyes.png","RavenClothed.png", "RavenCat.png", "RavenHuman.png"],
+    height: "4'0\"",
+    link: "https://sweetandsoursaws.tumblr.com/",
+
+  },
+  {
+    name: "Goose Wren",
+    height: "",
+    images: ["Goose.png", "GooseClothed.png", "GooseCat.png", "GooseHuman.png"],
+    link: "https://sweetandsoursaws.tumblr.com/",
+
+  },
+*/
 
 /***********************
  *  Use the Template   *
