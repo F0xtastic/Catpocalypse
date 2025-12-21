@@ -86,9 +86,9 @@ const characters = [
   },
   {
     name: "Sinswyn",
-    height: "",
+    height: "3'4\"",
     images: ["SinswynClothed.png"],
-    link: ""
+    link: "https://galdramaour.tumblr.com/"
   },
   {
     name: "Lux Imperator",
@@ -99,7 +99,7 @@ const characters = [
   {
     name: "Mr. Ring-a-Ding",
     height: "6'0\"",
-    images: ["RingClothed.png"],
+    images: ["ringading.png"],
     link: "https://luximperator.tumblr.com/"
   },
   {
