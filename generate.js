@@ -5,6 +5,7 @@ const characters = [
   {
     name: "Lark Wren",
     height: "6'0\"",
+    breed: "shorthair calico",
     images: ["Lark.png", "LarkClothed.png", "LarkClothed1.png", "LarkHuman.png"],
     link: "https://sweetandsoursaws.tumblr.com/",
 
@@ -12,6 +13,7 @@ const characters = [
   {
     name: "Lake Wren",
     height: "6'0\"",
+    breed: "shorthair tuxedo",
     images: ["Lake.png", "LakeClothed.png"],
     link: "https://sugarcoatedmechanic.tumblr.com/",
  
@@ -19,6 +21,7 @@ const characters = [
   {
     name: "Charlie Walker",
     height: "5'5\"",
+    breed: "shorthair calico",
     images: ["Charlie.png", "CharlieClothed.png"],
     link: "https://cdwalker.tumblr.com/",
 
@@ -26,6 +29,7 @@ const characters = [
   {
     name: "Willow Asis",
     height: "5'0\"",
+    breed: "blue point siamese",
     images: ["Willow.png", "WillowClothed.png"],
     link: "https://kingdomofbellows.tumblr.com/",
 
@@ -33,78 +37,91 @@ const characters = [
   {
     name: "Dustine Asis",
     height: "6'5\"",
+    breed: "blue lynx siamese",
     images: ["DustineHairless.png", "DustineClothed.png"],
     link: "https://kingdomofbellows.tumblr.com/"
   },
   {
     name: "Irene Asis",
     height: "5'10\"",
+    breed: "blue point siamese",
     images: ["Irene.png", "IreneClothed.png"],
     link: "https://kingdomofbellows.tumblr.com/"
   },
   {
     name: "Lucifer",
     height: "5'4\"",
+    breed: "shorthair",
     images: ["Lucifer.png", "LuciferClothed.png"],
     link: "https://burningfeathersx.tumblr.com/"
   },
   {
     name: "Duncan",
     height: "6'3\"",
+    breed: "chocolate scottish fold",
     images: ["Duncan.png", "DuncanClothed.png"],
     link: "https://mademypeace.tumblr.com/"
   },
   {
     name: "Devang",
     height: "6'10\"",
+    breed: "smoke longhair",
     images: ["Devang.png", "DevangClothed.png"],
     link: "https://disasterghaster.tumblr.com/"
   },
   {
     name: "Röka Drochàrd",
     height: "6'0\"",
+    breed: "shorthair",
     images: ["RokaClothed.png"],
     link: "https://actualtirefire.tumblr.com/"
   },
   {
     name: "Viktor Dresden",
     height: "6'4\"",
+    breed: "flame point siamese",
     images: ["Viktor.png", "ViktorClothed.png"],
     link: "https://geistersoldat.tumblr.com/"
   },
   {
     name: "Rene",
     height: "5'8\"",
+    breed: "Somali",
     images: ["René.png", "RenéClothed.png"],
     link: "https://letsdrinktotruelove.tumblr.com/"
   },
   {
     name: "Rook",
     height: "6'4\"",
+    breed: "LaPerm",
     images: ["Rook.png", "RookClothed.png", "RookHuman.png"],
     link: "https://averyrook.tumblr.com/"
   },
   {
     name: "Sinswyn",
     height: "3'4\"",
+    breed: "seal sepia point",
     images: ["SinswynClothed.png"],
     link: "https://galdramaour.tumblr.com/"
   },
   {
     name: "Lux Imperator",
     height: "3'0\"",
+    breed: "Lykoi",
     images: ["LuxClothed.png"],
     link: "https://luximperator.tumblr.com/"
   },
   {
     name: "Mr. Ring-a-Ding",
     height: "5'4\"",
+    breed: "Lykoi",
     images: ["Ring.png", "RingClothed.png"],
     link: "https://luximperator.tumblr.com/"
   },
   {
     name: "Doc Worth",
     height: "6'5\"",
+    breed: "brush Donskoy",
     images: ["Worth.png", "WorthClothed.png"],
     link: "https://sodoffyabuggers.tumblr.com/"
   },
@@ -156,7 +173,9 @@ characters.forEach(character => {
     const clone = template.content.cloneNode(true);
   
   clone.querySelector(".label").innerHTML =
-    `<h1>${character.name}</h1><br>Height: ${character.height}`;
+    `<h1>${character.name}</h1>
+    <br><b>Height:</b> ${character.height}
+    <br><b>Breed:</b> ${character.breed}`;
 
   clone.querySelector(".link").href = character.link;
 
