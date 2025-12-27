@@ -44,7 +44,7 @@ body {
     display: block;
     margin: auto;
     border-radius: 30px;
-    width: 20%;
+    width: fit-content;
     background-color: rgb(72, 77, 122);
     margin-top: 10px;
 }
