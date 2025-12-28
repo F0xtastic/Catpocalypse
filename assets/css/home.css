@@ -134,6 +134,9 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 450px) {
+  body {
+  background: linear-gradient(0deg,rgb(255, 131, 15) 0%,  rgb(83, 33, 124) 100dvh);
+}
   .circle {
   margin: auto;
   height: 70vw;
@@ -149,5 +152,6 @@ span:nth-child(1), span:nth-child(9), span:nth-child(5)  {
   -ms-transform: scale(0.5) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   transform: scale(0.5) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
 }
+
 }
 
