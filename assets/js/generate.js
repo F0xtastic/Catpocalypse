@@ -6,7 +6,7 @@ const characters = [
     name: "Lark Wren",
     height: "6'0\"",
     breed: "shorthair calico",
-    images: ["Lark.png", "LarkClothed.png", "LarkClothed1.png", "LarkHuman.png"],
+    images: ["LarkClothed.png", "Lark.png", "LarkClothed1.png", "LarkHuman.png"],
     link: "https://sweetandsoursaws.tumblr.com/",
 
   },
@@ -14,7 +14,7 @@ const characters = [
     name: "Lake Wren",
     height: "6'0\"",
     breed: "shorthair tuxedo",
-    images: ["Lake.png", "LakeClothed.png"],
+    images: ["LakeClothed.png", "Lake.png"],
     link: "https://sugarcoatedmechanic.tumblr.com/",
  
   },
@@ -22,7 +22,7 @@ const characters = [
     name: "Charlie Walker",
     height: "5'5\"",
     breed: "shorthair calico",
-    images: ["Charlie.png", "CharlieClothed.png"],
+    images: ["CharlieClothed.png", "Charlie.png"],
     link: "https://cdwalker.tumblr.com/",
 
   },
@@ -30,7 +30,7 @@ const characters = [
     name: "Willow Asis",
     height: "5'0\"",
     breed: "blue point siamese",
-    images: ["Willow.png", "WillowClothed.png"],
+    images: ["WillowClothed.png", "Willow.png"],
     link: "https://kingdomofbellows.tumblr.com/",
 
   },
@@ -38,35 +38,35 @@ const characters = [
     name: "Dustine Asis",
     height: "6'5\"",
     breed: "blue lynx siamese",
-    images: ["DustineHairless.png", "DustineClothed.png"],
+    images: ["DustineClothed.png", "DustineHairless.png"],
     link: "https://kingdomofbellows.tumblr.com/"
   },
   {
     name: "Irene Asis",
     height: "5'10\"",
     breed: "blue point siamese",
-    images: ["Irene.png", "IreneClothed.png"],
+    images: ["IreneClothed.png", "Irene.png"],
     link: "https://kingdomofbellows.tumblr.com/"
   },
   {
     name: "Lucifer",
     height: "5'4\"",
     breed: "shorthair",
-    images: ["Lucifer.png", "LuciferClothed.png"],
+    images: ["LuciferClothed.png", "Lucifer.png"],
     link: "https://burningfeathersx.tumblr.com/"
   },
   {
     name: "Duncan",
     height: "6'3\"",
     breed: "chocolate scottish fold",
-    images: ["Duncan.png", "DuncanClothed.png"],
+    images: ["DuncanClothed.png", "Duncan.png"],
     link: "https://mademypeace.tumblr.com/"
   },
   {
     name: "Devang",
     height: "6'10\"",
     breed: "smoke longhair",
-    images: ["Devang.png", "DevangClothed.png"],
+    images: ["DevangClothed.png", "Devang.png"],
     link: "https://disasterghaster.tumblr.com/"
   },
   {
@@ -80,21 +80,21 @@ const characters = [
     name: "Viktor Dresden",
     height: "6'4\"",
     breed: "flame point siamese",
-    images: ["Viktor.png", "ViktorClothed.png"],
+    images: ["ViktorClothed.png", "Viktor.png"],
     link: "https://geistersoldat.tumblr.com/"
   },
   {
     name: "Rene",
     height: "5'8\"",
     breed: "Somali",
-    images: ["René.png", "RenéClothed.png"],
+    images: ["RenéClothed.png", "René.png"],
     link: "https://letsdrinktotruelove.tumblr.com/"
   },
   {
     name: "Rook",
     height: "6'4\"",
     breed: "LaPerm",
-    images: ["Rook.png", "RookClothed.png", "RookHuman.png"],
+    images: ["RookClothed.png", "Rook.png", "RookHuman.png"],
     link: "https://averyrook.tumblr.com/"
   },
   {
@@ -115,14 +115,14 @@ const characters = [
     name: "Mr. Ring-a-Ding",
     height: "5'4\"",
     breed: "Lykoi",
-    images: ["Ring.png", "RingClothed.png"],
+    images: ["RingClothed.png", "Ring.png"],
     link: "https://luximperator.tumblr.com/"
   },
   {
     name: "Doc Worth",
     height: "6'5\"",
     breed: "brush Donskoy",
-    images: ["Worth.png", "WorthClothed.png"],
+    images: ["WorthClothed.png", "Worth.png"],
     link: "https://sodoffyabuggers.tumblr.com/"
   },
 ];
