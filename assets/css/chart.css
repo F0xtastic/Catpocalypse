@@ -1,16 +1,18 @@
 #chart {
   overflow-x: auto;
 }
+.chart-burrito {
+  overflow-y: hidden;
+  scrollbar-color: white rgba(50, 41, 73, 0);
+}
 
 .list {
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap: 5px;
 }
 
 .list__item {
-  padding: 5px;
   color: #ffffff;
   font-weight: 500;
   font-size: 18px;
@@ -63,8 +65,7 @@ float: right;
 
 .description-container {
   margin-top: -55px;
-  background: rgb(50, 41, 73);
-  border-radius: 10px;
+  background: rgba(50, 41, 73, 0.295);
 }
 
 .charatag {

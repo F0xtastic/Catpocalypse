@@ -174,8 +174,7 @@ characters.forEach(character => {
   
   clone.querySelector(".label").innerHTML =
     `<h1>${character.name}</h1>
-    <br><b>Height:</b> ${character.height}
-    <br><b>Breed:</b> ${character.breed}`;
+    <br><b>Height:</b> ${character.height}`;
 
   clone.querySelector(".link").href = character.link;
 
