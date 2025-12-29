@@ -18,33 +18,15 @@ body {
   height: 100%;
   background-color: rgb(226, 237, 243);
 }
-
-.nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+#burrito {
+  width: 100%;
+  overflow: hidden;
 }
-
-.nav li a {
-  display: block;
-  color: white;
-  font-weight: 700;
-  padding: 8px 16px;
-  text-decoration: none;
-  margin: 5px;
-}
-
-#navigation {
-    display: block;
-    margin: auto;
-    border-radius: 30px;
-    width: fit-content;
-    background-color: rgb(72, 77, 122);
-    margin-top: 10px;
-}
-
+/**********************
+  Blog Wrapper
+-----------------------
+  werecats/index.html
+***********************/
 #wrapper {
     display: block;
     margin-top: 10px;
@@ -55,6 +37,12 @@ body {
     max-width: 700px;
 }
 
+/**********************
+  Flex column and row
+-----------------------
+  werecats/index.html
+  index.html
+***********************/
 .flexcolumn {
   display: flex;
   flex-direction: column;
@@ -72,32 +60,69 @@ body {
   flex-wrap: wrap;
 }
 
-/* Change the link and background color on hover */
+/**********************
+  NAVIGATION
+-----------------------
+  from navigation.html
+-----------------------
+  chart/werecats.html
+  chart/index.html
+***********************/
+#navigation {
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    width: fit-content;
+    background-color: rgb(72, 77, 122);
+    margin-top: 10px;
+}
+
+/**********************
+  Top nav styling
+***********************/
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  font-weight: 700;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 5px;
+}
+
 .nav li a:hover {
   color: #ffa600;
 }
 
+/**********************
+  REACTIVE LAYOUT
+***********************/
+
 /* smaller screens */
 @media only screen and (max-width: 699px) {
-#wrapper {
-    padding: 20px;
-    border-radius: 0px;
-    width: 100%;
-
+  #wrapper {
+      padding: 20px;
+      border-radius: 0px;
+      width: 100%;
+  }
+  #navigation {
+      display: block;
+      border-radius: 0px;
+      width: 100%;
+  }
+  .nav li a {
+    padding: 8px 0px;
+    font-size: 3vw;
+  }
 }
-#navigation {
-    display: block;
-    border-radius: 0px;
-    width: 100%;
 
-}
-.nav li a {
-  padding: 8px 0px;
-  font-size: 3vw;
-}
-
-
-}
 /* larger screens */
 @media only screen and (min-width: 700px) {
   body {

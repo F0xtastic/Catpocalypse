@@ -1,4 +1,6 @@
-
+#chart {
+  overflow-x: auto;
+}
 
 .list {
   display: flex;
@@ -84,7 +86,6 @@ button {
   border-color: rgba(41, 27, 48, 0);
   color: white;
 }
-
 
 .list__item.is-idle {
   transition: 0.25s ease transform;

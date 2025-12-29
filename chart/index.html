@@ -13,29 +13,37 @@
         <script src="../assets/js/jquery-3.7.1.min.js"></script>
 </head>
 <body>
+<div id="burrito">
+<!------------------------------------------------------
+              Navigation.html insertion point
+------------------------------------------------------->
   <div id="navigation"></div>
-
+<!------------------------------------------------------
+                    Character Chart
+------------------------------------------------------->
   <div id="chart" class="list js-list">
   <template id="character-template">
     <div class="character, list__item is-idle js-item">
+
       <div class="slides js-drag-handle"></div>
+
       <div class="description-container">
         <div class="slidebutton"></div>
-        <div class="charatag js-drag-handle">
+          <div class="charatag js-drag-handle">
         </div>
-
         <div class="label"></div>
       </div>
+
       <a class="link"><img src="images/tumblr.svg" width="30"></a>
+
     </div>
   </template>
   </div>
-
-<script>
-  $(function() {
-    $("#navigation").load("../navigation.html");
-});
-</script>
+</div>
+<!------------------------------------------------------
+              Script to insert navigation
+------------------------------------------------------->
+<script>$(function() {$("#navigation").load("../navigation.html");});</script>
 
 </body>
 </html>
