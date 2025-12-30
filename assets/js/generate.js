@@ -70,18 +70,18 @@ const characters = [
     link: "https://disasterghaster.tumblr.com/"
   },
   {
-    name: "Röka Drochàrd",
-    height: "6'0\"",
-    breed: "shorthair",
-    images: ["RokaClothed.png"],
-    link: "https://actualtirefire.tumblr.com/"
-  },
-  {
     name: "Hennessy",
     height: "6'0\"",
     images: ["HennessyClothed.png", "Hennessy.png"],
     link: "https://sweetandsoursaws.tumblr.com/",
 
+  },
+  {
+    name: "Röka Drochàrd",
+    height: "6'0\"",
+    breed: "shorthair",
+    images: ["RokaClothed.png"],
+    link: "https://actualtirefire.tumblr.com/"
   },
   {
     name: "Viktor Dresden",
