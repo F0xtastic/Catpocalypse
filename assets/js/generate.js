@@ -112,7 +112,7 @@ const characters = [
     link: "https://galdramaour.tumblr.com/"
   },
   {
-    name: "Lux Imperator",
+    name: "Lux&nbsp;Imperator",
     height: "3'0\"",
     breed: "Lykoi",
     images: ["LuxClothed.png"],

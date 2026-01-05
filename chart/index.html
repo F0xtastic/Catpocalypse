@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
         <link rel="icon" type="image/x-icon" href="../assets/images/LarkFavicon.png">
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/output.css">
         <link rel="stylesheet" href="../assets/css/chart.css">
         <script src="../assets/js/generate.js" defer></script>
         <script src="../assets/js/slideshow.js" defer></script>
@@ -14,7 +14,7 @@
         <script src="../assets/js/hamburger.js" defer></script>
 </head>
 <body class="gradient">
-<div class="chart-burrito" id="burrito">
+<div class="overflow-y-hidden" id="character-chart">
 <!------------------------------------------------------
               Navigation 
 ------------------------------------------------------->
@@ -33,20 +33,20 @@
 <!------------------------------------------------------
                     Character Chart
 ------------------------------------------------------->
-  <div id="chart" class="list js-list">
+  <div id="chart" class="flex flex-row w-full js-list overflow-x-auto">
   <template id="character-template">
-    <div class="character, list__item is-idle js-item">
+    <div class="text-white text-lg font-bold relative will-change-transform is-idle js-item">
 
       <div class="slides js-drag-handle"></div>
 
-      <div class="description-container">
-        <div class="slidebutton"></div>
-          <div class="charatag js-drag-handle">
+      <div class="description-container mt-[-55px]">
+        <div class="slidebutton flex justify-between relative h-[30px]"></div>
+          <div class="pointer-events-none min-[200px] mt-[-80px]">
         </div>
         <div class="label"></div>
       </div>
 
-      <a class="link"><img src="images/tumblr.svg" width="30"></a>
+      <a class="link float-right mt-[-35px]"><img src="images/tumblr.svg" width="30"></a>
 
     </div>
   </template>
@@ -55,7 +55,7 @@
 <!------------------------------------------------------
               Script to insert navigation
 ------------------------------------------------------->
-<script>$(function() {$("#navigation").load("../navigation.html");});</script>
+<script>$(function() {$("#navigation").load("../assets/js/navigation.html");});</script>
 
 </body>
 </html>

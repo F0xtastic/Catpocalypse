@@ -1,25 +1,19 @@
-#chart {
-  overflow-x: auto;
+
+#character-chart img {
+  max-width: none;
+  padding: 5px;
+  max-height: 80vh;
+  pointer-events: none;
 }
-.chart-burrito {
-  overflow-y: hidden;
-  scrollbar-color: white rgba(50, 41, 73, 0);
+#character-chart {
+  scrollbar-color: rgba(255, 255, 255, 0.315) rgba(50, 41, 73, 0.295);
 }
 
-.list {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+/* won't work with tailwind? idk man I'm confused */
+.label {
+  padding: 10px 20px;
 }
-
-.list__item {
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 18px;
-  position: relative;
-  will-change: transform;
-}
-
+/* not gonna try adding this to tailwind lol */
 .label h1 {
   font-size: 20px;
   padding: 0px;
@@ -28,54 +22,13 @@
   margin-bottom: -20px;
 }
 
-img {
-  border-radius: 8px;
-  padding: 5px;
-  max-height: 75vh;
-  pointer-events: none;
-}
-
-.tumblrico {
-float: right;
-}
-
+/* don't replace this with tailwind */
 .js-drag-handle {
   cursor: grab;
 }
-
-.link {
-  float: right;
-  margin-top: -35px;
-}
-
-.slidebutton {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  height: 30px;
-}
-
-.slidebutton1 {
-  border-radius: 10px 0px 0px 0px;
-}
-
-.slidebutton2 {
-  border-radius: 0px 10px 0px 0px;
-}
-
+/* try this with tailwind later */
 .description-container {
-  margin-top: -55px;
   background: rgba(50, 41, 73, 0.295);
-}
-
-.charatag {
-  pointer-events: none;
-  min-width: 200px;
-  margin-top: -80px;
-}
-
-.label {
-  padding: 10px 20px;
 }
 
 button {

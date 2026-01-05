@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WERECATS</title>
     <link rel="icon" type="image/x-icon" href="../assets/images/LarkFavicon.png">
-
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/output.css">
     <script src="../assets/js/jquery-3.7.1.min.js"></script>
     <script src="../assets/js/hamburger.js" defer></script>
     <script src="../assets/js/modal.js" defer></script>
 </head>
-<body>
+<body class="extra-dark h-full overflow-x-hidden m-0">
 
 <section class="orange-header">
     <div id="topbar">
@@ -38,10 +37,10 @@
     <h1>WERECATS</h1>
 </section>
 
-<section class="coffee">
+<section class="text-white bg-no-repeat coffee">
     <img class="rajah-top" src="../assets/images/Orange-BG-overlap.svg">
 
-    <div class="flexrow">
+    <div class="flex items-center justify-center gap-10 flex-wrap h-full">
         <div class="blogcard">
             <h2>What are Werecats?</h2>
             <p>Werecats are a species of bipedal cat people with limited shapeshifting ability. Unlike the classic werewolf, the type of werecat described here is not effected by the moon, nor can they ordinarily infect others. These werecats are simply humanoid cats.</p>
@@ -59,7 +58,7 @@
         <p>Werecats can shapeshift to a few different forms, but generally they will default to their werecat form. Shapeshifting into other forms is a matter of skill and instinct, and may be easier for some werecats than for others.</p>
     </div>
 
-    <div class="flexrow">
+    <div class="flex items-start justify-center gap-10 flex-wrap h-full">
         <div class="modal-button blogcard mini-bc" href="#modal1">
             <h2>Werecat</h2>
             <img src="../assets/images/placeholder/Werecat-Lark.png" alt="Werecat">
@@ -84,7 +83,7 @@
                 <h3>Werecat</h3>
                 <p>
                     The classic werecat is an anthropomorphic cat and can do everything a human can do and more. This is the default form of a werecat, and for most werecats it's difficult to maintain other forms long-term. A werecat will likely revert to this form if knocked unconscious.
-                </p>
+                </p><br>
                     <ul>
                         <li>Retractable claws</li>
                         <li>Great night-vision</li>
@@ -100,7 +99,7 @@
                 <h3>Housecat</h3>
                 <p>
                     Werecats can shapeshift into a domestic cat. When in cat form, they will instinctively know how to walk on all fours and perform typical cat behaviors, and instincts may be stronger, though typically this will not result in the werecat losing their higher faculties, except perhaps in short bursts.
-                </p>
+                </p><br>
                 <ul>
                     <li>Cannot speak human language</li>
                     <li>Can communicate with some animals</li>
@@ -119,7 +118,7 @@
                 <h3>Human</h3>
                 <p>
                     Werecats typically have a human form, though this can also be other species such as demon, angel, alien species, etc. It is very rare for a werecat to default to their human/non-werecat form, though it is possible with a lot of practice/determination, or in cases where they're hybridized with a species that's more genetically dominant.
-                </p>
+                </p><br>
                 <ul>
                     <li>Improved senses may be lost in human form</li>
                     <li>Cat instincts are dulled</li>
@@ -133,7 +132,7 @@
                 <h3>Neko</h3>
                 <p>
                     It is unusual, but not impossible, for a werecat to have a partially shifted form, such as a human form with cat ears and tail and nothing else. This could involve any variety of mixed cat and human/humanoid features.
-                </p>
+                </p><br>
                 <p>It's more likely for a werecat to default to neko than to pure human/humanoid.</p>
             </div>
         </div>
@@ -158,6 +157,7 @@
 <!------------------------------------------------------
               Script to insert navigation
 ------------------------------------------------------->
-<script>$(function() {$("#navigation").load("../navigation.html");});</script>
+<script>$(function() {$("#navigation").load("../assets/js/navigation.html");});</script>
+
 </body>
 </html>
